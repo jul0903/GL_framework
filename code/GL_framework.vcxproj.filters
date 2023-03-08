@@ -14,6 +14,7 @@
     <ClCompile Include="src\renderers\Renderer.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\renderers\AA1.cpp" />
+    <ClCompile Include="objects\prueba.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\renderers\EX1.h" />
