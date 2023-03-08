@@ -137,7 +137,6 @@ xcopy "$(ProjectDir)libs\SDL2.dll" "$(OutDir)" /y /d</Command>
     <ClCompile Include="include\imgui\imgui_demo.cpp" />
     <ClCompile Include="include\imgui\imgui_draw.cpp" />
     <ClCompile Include="include\imgui\imgui_impl_sdl_gl3.cpp" />
-    <ClCompile Include="objects\prueba.cpp" />
     <ClCompile Include="src\renderers\AA1.cpp" />
     <ClCompile Include="src\renderers\EX1.cpp" />
     <ClCompile Include="src\renderers\Ex1c.cpp" />
@@ -162,6 +161,9 @@ xcopy "$(ProjectDir)libs\SDL2.dll" "$(OutDir)" /y /d</Command>
   <ItemGroup>
     <None Include="shaders\Triangle.vert" />
     <None Include="shaders\Triangle.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="objects\cube.obj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
